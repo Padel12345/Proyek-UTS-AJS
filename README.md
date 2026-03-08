@@ -3,6 +3,7 @@
 Web Aplikasi Sederhana berbasis CRUD (Create, Read, Update, Delete) 
 
 ## Arsitektur Sistem
+```
 Frontend (React)
       │
       ▼
@@ -12,6 +13,7 @@ Backend (Express API)
  ▼         ▼
 PostgreSQL  MinIO
 (Database)  (File Storage)
+```
 
 - **Frontend** : React digunakan untuk antarmuka pengguna
 - **Backend** : Express.js sebagai REST API
@@ -33,12 +35,12 @@ PostgreSQL  MinIO
 
 ## Cara Menjalankan Project
 ### 1 Clone Repository
-git clone https://github.com/username/project-name.git
-cd project-name
+- git clone https://github.com/username/project-name.git
+- cd project-name
 
 ### 2 Jalankan Docker
-docker compose up --build
-Setelah container berjalan, service dapat diakses pada:
-Backend API : http://localhost:8080
-MinIO Console : http://localhost:9001
-Frontend : http://localhost:5173
+- docker compose up --build
+- Setelah container berjalan, service dapat diakses pada:
+- Backend API : http://localhost:8080
+- MinIO Console : http://localhost:9001
+- Frontend : http://localhost:5173
